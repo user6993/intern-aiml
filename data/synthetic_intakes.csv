@@ -1,0 +1,61 @@
+scenario_id,text,label
+AI01,"Automate repetitive support email replies using an approved knowledge base and route unusual cases to a human agent.",ai_automation
+AI02,"Build an AI agent that summarizes incoming maintenance requests and creates draft actions for a staff member to approve.",ai_automation
+AI03,"Our operations team copies invoice details between systems. Explore document extraction and an exception review workflow.",ai_automation
+AI04,"We want to use an LLM to classify customer messages and suggest a response grounded in our product documentation.",ai_automation
+AI05,"Create a voice assistant for appointment scheduling that hands off complex conversations to a person.",ai_automation
+AI06,"Reduce manual back office steps with an AI workflow that extracts information from forms and flags uncertain fields.",ai_automation
+AI07,"Design an agent-assisted process for searching internal procedures and drafting answers with source references.",ai_automation
+AI08,"Connect language models to our business tools so staff can summarize records and request approved actions.",ai_automation
+AI09,"We need AI workflow automation for common onboarding tasks with a human approval queue and audit trail.",ai_automation
+AI10,"Evaluate an AI assistant that can triage incoming service tickets and identify urgent exceptions for our team.",ai_automation
+AI11,"Build a document processing pipeline that reads purchase orders and sends ambiguous cases for manual review.",ai_automation
+AI12,"Help our team automate repetitive scheduling and customer follow-up using conversational AI.",ai_automation
+SW01,"Build a new SaaS product with customer accounts, subscription billing, an admin portal, and a web dashboard.",software_platform
+SW02,"We need a custom web application with a searchable catalog, user profiles, and a mobile-friendly interface.",software_platform
+SW03,"Extend our existing platform with a partner API, role-based access, and a redesigned checkout journey.",software_platform
+SW04,"Develop an MVP for a marketplace that lets service providers manage bookings and customers track orders.",software_platform
+SW05,"Our startup needs full stack product engineering for a multi-tenant portal and its backend services.",software_platform
+SW06,"Create a workflow management application with dashboards, team permissions, and integrations to existing software.",software_platform
+SW07,"We want to turn our prototype into a production-ready SaaS platform with a stable API and responsive interface.",software_platform
+SW08,"Build a customer portal that displays account information and lets users submit and track requests.",software_platform
+SW09,"Design and develop a web product for managing projects, tasks, team collaboration, and notifications.",software_platform
+SW10,"We need software engineering support for a custom booking application with a React frontend and backend API.",software_platform
+SW11,"Develop an internal business app that replaces spreadsheets with forms, permissions, and reporting.",software_platform
+SW12,"Create a new digital platform for customers to register, manage their subscriptions, and access services.",software_platform
+CL01,"Migrate our legacy application from virtual machines to cloud infrastructure in staged releases.",cloud_devops
+CL02,"Set up CI/CD pipelines and automated deployment for our backend services with rollback support.",cloud_devops
+CL03,"Our web service has reliability issues during traffic spikes. Review cloud architecture and scaling.",cloud_devops
+CL04,"Modernize a monolithic application and move its database and workloads to a managed cloud platform.",cloud_devops
+CL05,"We need infrastructure as code, monitoring, backups, and secure cloud environments for our product.",cloud_devops
+CL06,"Improve release operations with container deployment, automated tests, and observability dashboards.",cloud_devops
+CL07,"Assess our cloud hosting costs and design a more resilient architecture for seasonal demand.",cloud_devops
+CL08,"Plan a cloud migration with identity controls, network security, disaster recovery, and deployment automation.",cloud_devops
+CL09,"Our team needs DevOps help to containerize services and establish repeatable deployment workflows.",cloud_devops
+CL10,"Design a scalable cloud backend and improve uptime with health monitoring and recovery procedures.",cloud_devops
+CL11,"Move an older application to modern cloud services while keeping the existing customer experience.",cloud_devops
+CL12,"Implement infrastructure monitoring and a reliable CI pipeline for our production platform.",cloud_devops
+DM01,"Connect our CRM and website analytics to understand lead sources and improve the conversion funnel.",data_marketing
+DM02,"Automate marketing campaigns based on consented customer segments and engagement events.",data_marketing
+DM03,"We want a data dashboard for campaign performance, attribution, and customer acquisition trends.",data_marketing
+DM04,"Improve technical SEO and analyze search performance to grow qualified website traffic.",data_marketing
+DM05,"Integrate lead forms with our CRM and add follow-up workflows with clear campaign reporting.",data_marketing
+DM06,"Unify marketing data from several platforms and build reports for channel return on investment.",data_marketing
+DM07,"Optimize our digital advertising and lead funnel using analytics and conversion experiments.",data_marketing
+DM08,"Our sales team needs cleaner CRM records, automated lead assignment, and pipeline insights.",data_marketing
+DM09,"Create a data pipeline for web traffic and marketing events with a dashboard for growth experiments.",data_marketing
+DM10,"We need help with campaign automation, customer relationship management, and funnel optimization.",data_marketing
+DM11,"Measure landing page performance and technical search issues to improve organic acquisition.",data_marketing
+DM12,"Build reporting that combines customer relationship data with performance marketing results.",data_marketing
+LT01,"Create an online learning path that recommends the next coding exercise based on quiz results.",learning_tech
+LT02,"Our learners need a technical training portal with courses, assessments, and progress tracking.",learning_tech
+LT03,"Build a practice platform that helps students develop cloud engineering skills through projects.",learning_tech
+LT04,"We want to personalize learning content using completed lessons and demonstrated learner skills.",learning_tech
+LT05,"Design an education product with instructor-led sessions, quizzes, course certificates, and learner dashboards.",learning_tech
+LT06,"Create an adaptive study plan for technical learners, with progress milestones and hands-on labs.",learning_tech
+LT07,"Our coding academy needs a platform for assignments, feedback, and tracking student mastery.",learning_tech
+LT08,"Recommend relevant tutorials to learners using their course progress and areas where they need practice.",learning_tech
+LT09,"Build a technical upskilling program with lessons, exercises, assessments, and completion analytics.",learning_tech
+LT10,"We need an online education portal that guides students through software development courses.",learning_tech
+LT11,"Create a learning experience that adapts hands-on practice to each learner's progress.",learning_tech
+LT12,"Develop a course platform for technical skills with learning paths and learner progress reports.",learning_tech
