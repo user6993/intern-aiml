@@ -12,6 +12,7 @@ from sklearn.pipeline import Pipeline
 
 
 DATA_PATH = Path(__file__).parent / "data" / "synthetic_intakes.csv"
+MAX_BRIEF_CHARS = 5000
 
 
 @dataclass(frozen=True)
@@ -158,6 +159,10 @@ class IntakeRouter:
         cleaned = _clean_text(text)
         if len(cleaned) < 12:
             raise ValueError("Please enter a project brief with at least 12 characters.")
+        if len(cleaned) > MAX_BRIEF_CHARS:
+            raise ValueError(
+                f"Please keep the project brief to {MAX_BRIEF_CHARS} characters or fewer."
+            )
 
         probabilities = self._model.predict_proba([cleaned])[0]
         classes = self._model.named_steps["classifier"].classes_

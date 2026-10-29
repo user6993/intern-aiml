@@ -37,6 +37,10 @@ class IntakeRouterTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     self.router.predict(brief)
 
+    def test_oversized_brief_is_rejected(self):
+        with self.assertRaisesRegex(ValueError, "5000 characters or fewer"):
+            self.router.predict("A" * 5001)
+
     def test_explanation_terms_come_from_the_brief(self):
         brief = "Build an AI agent for support ticket automation."
         result = self.router.predict(brief)

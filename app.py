@@ -139,6 +139,7 @@ def render_intake_page() -> None:
             "What are you trying to build or improve? *",
             key="project_brief",
             height=130,
+            max_chars=5000,
             placeholder="Describe the current challenge, users, and desired solution.",
         )
         col_a, col_b = st.columns(2)
@@ -372,4 +373,3 @@ elif page == "Opportunity analysis":
     render_opportunities_page()
 else:
     render_model_notes_page()
-

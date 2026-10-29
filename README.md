@@ -75,7 +75,8 @@ and more consistent first responses—is a hypothesis to test, not a known Cynbi
 
 The app shows model scores only as relative outputs from a synthetic set. They are not
 calibrated confidence values, validated commercial qualification, or performance claims.
-An ambiguous result is flagged for human review.
+An ambiguous result is flagged for human review. Project briefs are limited to 5,000
+characters.
 
 ### Data pipeline
 
